@@ -1,12 +1,46 @@
 body {
-	background: url("http://i.imgur.com/UdjjlPo.jpg");
-	background-size: cover;
 	text-align: center;
 }
 #face {
-	border: 10px solid #9900FF;
+	border: 10px solid #33CCFF;
 	border-radius: 200px;
 	margin: 100px 0px 0px 0px;
+}
+#beach {
+	height: 400px;
+	width: 400px;
+	position: relative;
+	float: right;
+	top: 20px;
+	left: -100px;
+}
+#maine {
+	height: 400px;
+	width: 400px;
+	position: relative;
+	float: left;
+	top: 900px;
+	left: 45px;
+}
+#caption1 {
+	background-color: black;
+	color: white;
+	font-size: 50px;
+	position: absolute;
+	float: right;
+	top: 370px;
+	right: 200px;
+	z-index: 1;
+}
+#caption2 {
+	background-color: black;
+	color: white;
+	font-size: 50px;
+	position: absolute;
+	float: left;
+	top: 1250px;
+	left: 155px;
+	z-index: 1;
 }
 h1 {
 	font-size: 60px;
@@ -20,7 +54,7 @@ a {
 	color: black;
 }
 #contact {
-	background-color: #D4D4D7;
+	background-color: #ADEBFF;
 	height:250px;
 	width: 500px;
 	margin: 0 auto;
@@ -28,7 +62,7 @@ a {
 #footer {
 	font-size: 30px;
 }
-img {
+#footer img {
 	border-radius: 300px;
 }
 li {
